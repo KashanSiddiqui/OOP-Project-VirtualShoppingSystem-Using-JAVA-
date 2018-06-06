@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="LoginOrSignUp" prefHeight="400.0" prefWidth="600.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtualshoppingsystem.FXMLController">
+   <children>
+      <Button layoutX="236.0" layoutY="143.0" mnemonicParsing="false" onAction="#login" prefHeight="62.0" prefWidth="129.0" text="Login" />
+      <Button layoutX="236.0" layoutY="236.0" mnemonicParsing="false" onAction="#signUp" prefHeight="62.0" prefWidth="129.0" text="Sign Up" />
+      <Button fx:id="closeButton" layoutX="540.0" layoutY="361.0" mnemonicParsing="false" onAction="#closeButtonAction" text="Exit" />
+   </children>
+</AnchorPane>

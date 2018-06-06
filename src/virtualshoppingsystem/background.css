@@ -1,0 +1,36 @@
+#StartAnchorPane {
+    -fx-background-image: url("shopping1.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 410;
+    -fx-background-position: center center;   
+    
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+    
+}
+#AnchorPane2 {
+    -fx-background-image: url("UserOptionsBG.jpg");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+#LoginOrSignUp {
+    -fx-background-image: url("LoginOrSignUp.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 410;   
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0); 
+}
+#AdminOptions {
+	-fx-background-image: url("UserOptionsBG.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 410;   
+    -fx-background-position: center center;
+
+}
+#AnchorPane{
+	-fx-background-image: url("BackGround.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 600 410;   
+    -fx-background-position: center center; 
+}
+

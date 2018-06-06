@@ -1,0 +1,7 @@
+usb
+keyboard
+mouse
+cd
+pen
+speakers
+harddisk

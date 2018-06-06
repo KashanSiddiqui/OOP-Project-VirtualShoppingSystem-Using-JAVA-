@@ -1,0 +1,52 @@
+*User Name:
+salman
+Items Purchased:
+speakers
+Total Bill:
+275
+
+
+*User Name:
+salman
+*User Name:
+kashan
+Items Purchased:
+-
+Total Bill:
+0
+
+
+*User Name:
+salman
+*User Name:
+salman
+Items Purchased:
+-
+Total Bill:
+0
+
+
+*User Name:
+salman
+Items Purchased:
+-
+Total Bill:
+0
+
+
+*User Name:
+kashan
+Items Purchased:
+smoke
+Total Bill:
+12
+
+
+*User Name:
+salman
+Items Purchased:
+-
+Total Bill:
+0
+
+

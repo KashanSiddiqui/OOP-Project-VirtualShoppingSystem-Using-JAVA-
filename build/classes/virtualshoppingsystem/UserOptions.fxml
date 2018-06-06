@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane2" prefHeight="400.0" prefWidth="600.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="virtualshoppingsystem.FXMLController">
+   <children>
+      <GridPane alignment="CENTER" layoutX="80.0" layoutY="59.0" prefHeight="231.0" prefWidth="125.0">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="51.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button contentDisplay="CENTER" layoutY="1.0" maxWidth="119.0" mnemonicParsing="false" onAction="#showItemsListUserOpt" prefHeight="25.0" prefWidth="119.0" text="Show Items List" />
+            <Button alignment="CENTER" layoutY="1.0" maxWidth="119.0" mnemonicParsing="false" onAction="#addToCartUsrOpt" prefHeight="25.0" prefWidth="119.0" text="Add To Cart" GridPane.rowIndex="1" />
+            <Button alignment="CENTER" layoutY="1.0" maxWidth="122.0" mnemonicParsing="false" onAction="#clearCartUserOpt" prefHeight="25.0" prefWidth="122.0" text="Clear Cart" GridPane.rowIndex="3" />
+            <Button alignment="CENTER" layoutY="1.0" maxWidth="123.0" mnemonicParsing="false" onAction="#logOutUserOpt" prefHeight="25.0" prefWidth="96.0" text="CheckOut / LogOut" GridPane.rowIndex="4" />
+            <Button layoutY="1.0" maxWidth="121.0" mnemonicParsing="false" onAction="#deleteFromCartUserOpt" prefHeight="25.0" prefWidth="121.0" text="Delete From Cart" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Label layoutX="80.0" layoutY="28.0" prefHeight="31.0" prefWidth="176.0" text="User Options" textFill="#4d4d4d">
+         <font>
+            <Font name="Century Gothic Bold" size="21.0" />
+         </font>
+      </Label>
+      <ListView fx:id="itemsListView" layoutX="256.0" layoutY="72.0" prefHeight="167.0" prefWidth="116.0" />
+      <Label layoutX="256.0" layoutY="28.0" prefHeight="31.0" prefWidth="116.0" text="Items List">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <ListView fx:id="costListView" layoutX="379.0" layoutY="72.0" prefHeight="167.0" prefWidth="63.0" />
+      <Label layoutX="379.0" layoutY="28.0" prefHeight="31.0" prefWidth="63.0" text="Cost">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <ListView fx:id="stockListView" layoutX="456.0" layoutY="72.0" prefHeight="167.0" prefWidth="63.0" />
+      <Label layoutX="456.0" layoutY="28.0" prefHeight="31.0" prefWidth="63.0" text="Stock">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="245.0" prefHeight="31.0" prefWidth="116.0" text="Cart" textFill="#070707">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="billTxtArea" editable="false" layoutX="456.0" layoutY="281.0" prefHeight="31.0" prefWidth="63.0" />
+      <Label layoutX="456.0" layoutY="245.0" prefHeight="31.0" prefWidth="63.0" text="Total" textFill="#070707">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Label>
+      <ListView fx:id="cartListView" layoutX="256.0" layoutY="281.0" prefHeight="81.0" prefWidth="188.0" />
+   </children>
+</AnchorPane>
